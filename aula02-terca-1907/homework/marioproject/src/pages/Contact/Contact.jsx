@@ -6,7 +6,7 @@ import { SelectInput } from "../../components/SelectInput/SelectInput";
 import { Textarea } from "../../components/Textarea/Textarea";
 import styles from "./styles.module.css";
 
-export const Contact = () => {
+const Contact = () => {
   const options = [{value: "curso", text: "Curso"}, {value: "duvidas", text: "Duvidas"}]
   return (
     <>
@@ -28,3 +28,5 @@ export const Contact = () => {
     </>
   )
 }
+
+export default Contact
