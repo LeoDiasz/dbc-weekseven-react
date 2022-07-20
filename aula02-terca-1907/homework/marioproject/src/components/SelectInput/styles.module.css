@@ -1,0 +1,10 @@
+.selectContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selectContent > select {
+  width: 250px;
+  padding: 2px 10px;
+}

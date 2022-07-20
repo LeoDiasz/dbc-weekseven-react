@@ -1,0 +1,12 @@
+
+.inputContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.inputContent > input {
+  width: 250px;
+  padding: 2px 10px;
+}

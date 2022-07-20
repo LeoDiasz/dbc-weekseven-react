@@ -1,0 +1,15 @@
+
+.buttonContent {
+  border: none;
+  text-align: center;
+  padding: 5px 0px;
+  width: 60px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: filter 0.2s
+}
+
+.buttonContent:hover {
+  filter: brightness(0.91);
+}
+

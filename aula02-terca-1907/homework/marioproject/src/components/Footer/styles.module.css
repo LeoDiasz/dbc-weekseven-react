@@ -1,0 +1,10 @@
+.footerContent {
+  padding: 40px 0px;
+  background-color: red;
+  height: 200px;
+}
+
+.footerContent address {
+  color: #fff;
+  margin-top: 20px;
+}

@@ -1,0 +1,20 @@
+
+.headerContent{
+  display: flex;
+  height: 100px;
+  background-color: red;
+}
+
+.headerContent > div {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.headerContent span {
+  color: #fff;
+  margin-right: 50px;
+}
+
+
+

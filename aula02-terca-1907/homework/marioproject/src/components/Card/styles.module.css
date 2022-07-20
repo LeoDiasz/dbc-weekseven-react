@@ -1,0 +1,23 @@
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 150px;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cardContent:hover {
+  background-color: #f2f2f2;
+}
+
+.cardContent > img {
+  width: 80px
+}

@@ -1,0 +1,12 @@
+
+.sectionWithIframe {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionWithIframe > h1 {
+  margin-bottom: 25px;
+}

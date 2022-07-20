@@ -1,0 +1,11 @@
+
+.navContent ul {
+  display: flex;
+  gap: 20px;
+  color: #fff;
+}
+
+.navContent > ul li {
+  cursor: pointer;
+  text-decoration: underline;
+}

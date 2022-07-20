@@ -1,0 +1,21 @@
+
+.sectionContact > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+}
+
+.sectionContact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  min-height: 600px;
+  padding: 30px;
+  border: 1px solid #44455f;
+  border-radius: 8px;
+}
+
+
