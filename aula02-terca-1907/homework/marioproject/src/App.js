@@ -10,7 +10,7 @@ export function App() {
 
       {/* <Home/> */}
       {/* <Contact/> */}
-      <About/>
+      {/* <About/> */}
     </>
   );
 }

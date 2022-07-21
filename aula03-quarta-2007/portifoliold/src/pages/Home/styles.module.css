@@ -1,0 +1,59 @@
+
+.divContainerBanner {
+  background:  url("../../assets//banner.png")   no-repeat;
+
+  background-size: cover;
+  background-position: 0 -30px;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0 200px;
+
+}
+
+.mainContent {
+  height: 60%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+
+}
+
+.mainContent > div:first-child {
+  color: #fff;
+  display: flex;
+  flex-direction: column; 
+  gap: 40px;
+  columns: #fff;
+}
+
+.mainContent > div:first-child button {
+  background-color: #FFBF2F;
+  border: none;
+  height: 60px;
+  width: 180px;
+  color: #00041C;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sectionProjects {
+  padding: 60px 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #00041C;
+  color: #fff;
+  justify-content: center;
+}
+
+.sectionProjects h1 {
+  font-size: 36px;
+}
+
+.listCardsRepository {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

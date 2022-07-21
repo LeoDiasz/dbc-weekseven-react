@@ -1,0 +1,8 @@
+.logoContent {
+  cursor: pointer;
+  transition: filter 0.5s
+}
+
+.logoContent:hover {
+  filter: brightness(0.9);
+}
